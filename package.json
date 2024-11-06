@@ -12,6 +12,14 @@
   "dependencies": {
     "nuxt": "^3.13.2",
     "vue": "latest",
-    "vue-router": "latest"
+    "vue-router": "latest",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "better-sqlite3": "^11.5.0",
+    "nuxt-mongoose": "^1.0.6"
   }
 }
