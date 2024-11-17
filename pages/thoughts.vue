@@ -65,6 +65,7 @@ async function fetchData() {
   posts.value = await $fetch('/api/message', {
     method: "GET"
   })
+  posts.value = posts.value?.reverse()
 }
 </script>
 <style>
